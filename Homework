@@ -1,0 +1,23 @@
+What is JSX ?
+
+JSX is not javascrit xml , it is not html inside javascript ,its an html like code . Initially we had to use React.createElement() 
+everytime we wanted to create an element but in the case of large nested html elements its becomes a problem so to get rid of that we use
+JSX.
+
+Superpowers of JSX ?
+
+We can write html inside javascript
+Readability
+Maintainability
+Developer's experience
+Syntatical Sugar
+Less code
+
+Role of type attribute in script tag ? What options can I use there ?
+The type attribute specifies the type of the script. The type attribute identifies the content between the
+<script> and </script> tags.
+
+Actually what happens is that our starting point is index.html and there in script tag we gave link to App.js which has 
+import commands and our browser does not understand import command so we have to tell the browser that its not simple app.js
+file instead it is a javascript file that uses node_module files shuch as react and react-dom
+
