@@ -1,23 +1,65 @@
-What is JSX ?
+Is JSX mandatory for React ?
+No 
 
-JSX is not javascrit xml , it is not html inside javascript ,its an html like code . Initially we had to use React.createElement() 
-everytime we wanted to create an element but in the case of large nested html elements its becomes a problem so to get rid of that we use
-JSX.
+Is ES6 mandatory for React or not ?
+No 
 
-Superpowers of JSX ?
+what is the difference between {TitleComponent} , {<TitleCompoent />} and {<TitleComponent></TitleComponent>}
+As we know we can write any javascript code inside  {} (curly braces) so  the {TitleComponent} is a react element which
+is at the end of the day a javascript object  and {<TitleCoponent />}  is same as <TitleComponent /> ans it is a functional 
+component or a function in javascript and {<TitleComponent></TitleComponent>} is same as <TitleCoponent></TitleCoponent> and
+it is called as JSX
 
-We can write html inside javascript
-Readability
-Maintainability
-Developer's experience
-Syntatical Sugar
-Less code
+How to write comments in JSX ?
+inside the {} (curly braces)
 
-Role of type attribute in script tag ? What options can I use there ?
-The type attribute specifies the type of the script. The type attribute identifies the content between the
-<script> and </script> tags.
+What is <React.Fragment></React.Fragment> and <></> ?
+All the child elements must be inisde one parent element and we can do that easilt by Putting them inside a <div></div> but that
+will create an extra <div></div> tag in our code and we dont want extra tag so we use <React.Fragment></React.Fragment>.
+ <React.Fragment></React.Fragment> and <></> both are same thing.
 
-Actually what happens is that our starting point is index.html and there in script tag we gave link to App.js which has 
-import commands and our browser does not understand import command so we have to tell the browser that its not simple app.js
-file instead it is a javascript file that uses node_module files shuch as react and react-dom
+ What is virtual DOM ?
+ Virtual DOM is a representation of the actual DOM 
 
+ What is reconciliation ?
+ React uses an algorithm known as diffinf algorithm to find out diffreneces between trees (actual DOM and virtual DOM) to
+ rerender only that part of code which is required.This process is known as reconciliation
+
+ What is react fiber ?
+ A. React Fiber is a new reconciliation algorithm introduced in React 16. It is a complete rewrite of the previous algorithm, 
+ designed to increase the flexibility and performance of React.
+
+ Why we need keys in React ? When do we need keys in React ?
+ A. Key is used to uniquely identify our react elements so that the reconciliation can easily find the new added element 
+ and only re-render that elements intead of re-rendering all the similar elements. We need Key in react when we have multiple 
+ elements of same html tag.
+
+ <div>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+ </div>
+
+ if there is a change in h1 at third position then react will know that there is a change but it does know  which <h1></h1> 
+ it need to change . So if we give keys to all the elements it will it will know which element needs to be changed and it rerender only
+ that element
+
+ Can we use index as keys in react ?
+ Index is not an invalid key but we should not use it. We should always use something which is unique.
+ If we do not have anything unique we should use index.
+
+ No key <<<<<<<<<<<  index  key  << unique key 
+
+ What is props in react ?
+ Props is like arguments that we pass in function.
+
+ What is a config driven user interface ?
+ A config driven user iterface is driven by the config and the config is driven by the API or the data from backend.
+ Suppose there is an element carousel which is a card element that shows offer at differen locations and suppose at a particular 
+ location there is no offer and we dont want to show the carousel so in that case our User Interface is drivenby the API or data 
+ from backend (the carousel array that comes from backend has no element in it so the carousel element is not shown)
+
+ 
+
+ 

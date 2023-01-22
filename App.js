@@ -1267,7 +1267,7 @@ let Title = () =>{
                       "iconType": "EMPTY"
                     },
                     "promoted": false,
-                    "avgRating": "--",
+                    "avgRating": "2.4",
                     "totalRatings": 0,
                     "new": false
                   },
@@ -1414,143 +1414,8 @@ let Title = () =>{
                   },
                   "subtype": "basic"
                 },
-                {
-                  "type": "restaurant",
-                  "data": {
-                    "type": "F",
-                    "id": "362737",
-                    "name": "NIC Ice Creams",
-                    "uuid": "2eaf537f-7500-4e7a-938d-2bd815d5c662",
-                    "city": "10459",
-                    "area": "Sector Alpha Ii",
-                    "totalRatingsString": "50+ ratings",
-                    "cloudinaryImageId": "ot562act6ipqkmdvwtnp",
-                    "cuisines": [
-                      "Ice Cream",
-                      "Desserts"
-                    ],
-                    "tags": [
-                      
-                    ],
-                    "costForTwo": 12000,
-                    "costForTwoString": "₹120 FOR TWO",
-                    "deliveryTime": 21,
-                    "minDeliveryTime": 21,
-                    "maxDeliveryTime": 21,
-                    "slaString": "21 MINS",
-                    "lastMileTravel": 2.799999952316284,
-                    "slugs": {
-                      "restaurant": "nic-natural-ice-creams-alfa-2-greater-noida",
-                      "city": "noida-1"
-                    },
-                    "cityState": "10459",
-                    "address": "SHOP NO G-25(GROUND FLOOR), SAT, SHYAM 2 SHOPPINGCOMPLEX CS-05, SECTOR ALFA II, GREATER NOIDA,UP-201308",
-                    "locality": "Alfa 2",
-                    "parentId": 6249,
-                    "unserviceable": false,
-                    "veg": true,
-                    "select": false,
-                    "favorite": false,
-                    "tradeCampaignHeaders": [
-                      
-                    ],
-                    "aggregatedDiscountInfo": {
-                      "header": "50% off",
-                      "shortDescriptionList": [
-                        {
-                          "meta": "50% off | Use WELCOME50",
-                          "discountType": "Percentage",
-                          "operationType": "RESTAURANT"
-                        }
-                      ],
-                      "descriptionList": [
-                        {
-                          "meta": "50% off up to ₹80 | Use code WELCOME50",
-                          "discountType": "Percentage",
-                          "operationType": "RESTAURANT"
-                        }
-                      ],
-                      "subHeader": "",
-                      "headerType": 0,
-                      "superFreedel": ""
-                    },
-                    "aggregatedDiscountInfoV2": {
-                      "header": "50% OFF",
-                      "shortDescriptionList": [
-                        {
-                          "meta": "Use WELCOME50",
-                          "discountType": "Percentage",
-                          "operationType": "RESTAURANT"
-                        }
-                      ],
-                      "descriptionList": [
-                        {
-                          "meta": "50% off up to ₹80 | Use code WELCOME50",
-                          "discountType": "Percentage",
-                          "operationType": "RESTAURANT"
-                        }
-                      ],
-                      "subHeader": "",
-                      "headerType": 0,
-                      "superFreedel": ""
-                    },
-                    "chain": [
-                      
-                    ],
-                    "feeDetails": {
-                      "fees": [
-                        
-                      ],
-                      "totalFees": 0,
-                      "message": "",
-                      "title": "",
-                      "amount": "",
-                      "icon": ""
-                    },
-                    "availability": {
-                      "opened": true,
-                      "nextOpenMessage": "",
-                      "nextCloseMessage": ""
-                    },
-                    "longDistanceEnabled": 0,
-                    "rainMode": "NONE",
-                    "thirdPartyAddress": false,
-                    "thirdPartyVendor": "",
-                    "adTrackingID": "",
-                    "badges": {
-                      "imageBased": [
-                        
-                      ],
-                      "textBased": [
-                        
-                      ],
-                      "textExtendedBadges": [
-                        
-                      ]
-                    },
-                    "lastMileTravelString": "2.7 kms",
-                    "hasSurge": false,
-                    "sla": {
-                      "restaurantId": "362737",
-                      "deliveryTime": 21,
-                      "minDeliveryTime": 21,
-                      "maxDeliveryTime": 21,
-                      "lastMileTravel": 2.799999952316284,
-                      "lastMileDistance": 0,
-                      "serviceability": "SERVICEABLE",
-                      "rainMode": "NONE",
-                      "longDistance": "NOT_LONG_DISTANCE",
-                      "preferentialService": false,
-                      "iconType": "EMPTY"
-                    },
-                    "promoted": false,
-                    "avgRating": "4.5",
-                    "totalRatings": 50,
-                    "new": false
-                  },
-                  "subtype": "basic"
-                } ,
 
+                
                 {
                   "type": "restaurant",
                   "data": {
@@ -1697,6 +1562,143 @@ let Title = () =>{
                   "subtype": "basic"
                 },
                
+                {
+                  "type": "restaurant",
+                  "data": {
+                    "type": "F",
+                    "id": "362737",
+                    "name": "NIC Ice Creams",
+                    "uuid": "2eaf537f-7500-4e7a-938d-2bd815d5c662",
+                    "city": "10459",
+                    "area": "Sector Alpha Ii",
+                    "totalRatingsString": "50+ ratings",
+                    "cloudinaryImageId": "ot562act6ipqkmdvwtnp",
+                    "cuisines": [
+                      "Ice Cream",
+                      "Desserts"
+                    ],
+                    "tags": [
+                      
+                    ],
+                    "costForTwo": 12000,
+                    "costForTwoString": "₹120 FOR TWO",
+                    "deliveryTime": 21,
+                    "minDeliveryTime": 21,
+                    "maxDeliveryTime": 21,
+                    "slaString": "21 MINS",
+                    "lastMileTravel": 2.799999952316284,
+                    "slugs": {
+                      "restaurant": "nic-natural-ice-creams-alfa-2-greater-noida",
+                      "city": "noida-1"
+                    },
+                    "cityState": "10459",
+                    "address": "SHOP NO G-25(GROUND FLOOR), SAT, SHYAM 2 SHOPPINGCOMPLEX CS-05, SECTOR ALFA II, GREATER NOIDA,UP-201308",
+                    "locality": "Alfa 2",
+                    "parentId": 6249,
+                    "unserviceable": false,
+                    "veg": true,
+                    "select": false,
+                    "favorite": false,
+                    "tradeCampaignHeaders": [
+                      
+                    ],
+                    "aggregatedDiscountInfo": {
+                      "header": "50% off",
+                      "shortDescriptionList": [
+                        {
+                          "meta": "50% off | Use WELCOME50",
+                          "discountType": "Percentage",
+                          "operationType": "RESTAURANT"
+                        }
+                      ],
+                      "descriptionList": [
+                        {
+                          "meta": "50% off up to ₹80 | Use code WELCOME50",
+                          "discountType": "Percentage",
+                          "operationType": "RESTAURANT"
+                        }
+                      ],
+                      "subHeader": "",
+                      "headerType": 0,
+                      "superFreedel": ""
+                    },
+                    "aggregatedDiscountInfoV2": {
+                      "header": "50% OFF",
+                      "shortDescriptionList": [
+                        {
+                          "meta": "Use WELCOME50",
+                          "discountType": "Percentage",
+                          "operationType": "RESTAURANT"
+                        }
+                      ],
+                      "descriptionList": [
+                        {
+                          "meta": "50% off up to ₹80 | Use code WELCOME50",
+                          "discountType": "Percentage",
+                          "operationType": "RESTAURANT"
+                        }
+                      ],
+                      "subHeader": "",
+                      "headerType": 0,
+                      "superFreedel": ""
+                    },
+                    "chain": [
+                      
+                    ],
+                    "feeDetails": {
+                      "fees": [
+                        
+                      ],
+                      "totalFees": 0,
+                      "message": "",
+                      "title": "",
+                      "amount": "",
+                      "icon": ""
+                    },
+                    "availability": {
+                      "opened": true,
+                      "nextOpenMessage": "",
+                      "nextCloseMessage": ""
+                    },
+                    "longDistanceEnabled": 0,
+                    "rainMode": "NONE",
+                    "thirdPartyAddress": false,
+                    "thirdPartyVendor": "",
+                    "adTrackingID": "",
+                    "badges": {
+                      "imageBased": [
+                        
+                      ],
+                      "textBased": [
+                        
+                      ],
+                      "textExtendedBadges": [
+                        
+                      ]
+                    },
+                    "lastMileTravelString": "2.7 kms",
+                    "hasSurge": false,
+                    "sla": {
+                      "restaurantId": "362737",
+                      "deliveryTime": 21,
+                      "minDeliveryTime": 21,
+                      "maxDeliveryTime": 21,
+                      "lastMileTravel": 2.799999952316284,
+                      "lastMileDistance": 0,
+                      "serviceability": "SERVICEABLE",
+                      "rainMode": "NONE",
+                      "longDistance": "NOT_LONG_DISTANCE",
+                      "preferentialService": false,
+                      "iconType": "EMPTY"
+                    },
+                    "promoted": false,
+                    "avgRating": "4.5",
+                    "totalRatings": 50,
+                    "new": false
+                  },
+                  "subtype": "basic"
+                } 
+
 
                 
             
@@ -1743,9 +1745,13 @@ const Body = () =>{
    </div>
 }
 const Footer = () =>{
-
+  return(
+    <h1 className="footer"> copyrights  @foodvilla</h1>
+  )
 
 }
+
+
 
 const AppLayout =()=>{
 
